@@ -66,8 +66,8 @@ Copy code
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/airaware.git
-cd airaware
+git clone https://github.com/Pradeep-Battula/Milestone-4.git
+cd Milestone-4
 
 Install required Python packages:
 pip install pandas matplotlib prophet streamlit joblib
@@ -110,23 +110,8 @@ Joblib for model serialization
 
 ## Data Flow Diagram
 
+<img width="721" height="431" alt="image" src="https://github.com/user-attachments/assets/e13dacee-5bcc-4a17-a36d-b98f46474d1a" />
 
-+---------------------+      +-------------------+      +------------------------+
-| Clean Air Quality   |      | Streamlit Dashboard|      | Prophet Forecast Models|
-| Dataset (CSV)       | ---> | Interactive UI    | ---> | Predict Future Values  |
-|                     |      | - City Selection  |      | - Multi-Pollutant      |
-|                     |      | - Pollutant Cards |      | - AQI Prediction       |
-+---------------------+      | - Donut Charts    |      +------------------------+
-                             | - Daily Trends    |
-                             | - Alerts          |
-                             | - Forecast Graphs |
-                             +-------------------+
-                                       |
-                                       v
-                             +-------------------+
-                             | Predicted AQI &   |
-                             | Forecasted CSV    |
-                             +-------------------+
 
 ## License
 This project is licensed under the MIT License. See LICENSE for details.
