@@ -164,3 +164,7 @@ st.pyplot(fig1)
 
 ✅ **Milestone 4 Completion Status:**
 All core requirements of the Streamlit Web Dashboard have been successfully implemented.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
